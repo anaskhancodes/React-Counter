@@ -15,6 +15,10 @@ const Counter = () => {
   const Sub = () => { // SUB -
     console.log("Sub 1")
 
+    if(islit === 0){
+      return;
+    }
+
     setlit(islit - 1)
   }
 
@@ -23,6 +27,8 @@ const Counter = () => {
 
     setlit(0);
   }
+
+
 
   return <div>
 
