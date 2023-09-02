@@ -18,6 +18,12 @@ const Counter = () => {
     setlit(islit - 1)
   }
 
+  const Reset= () => { // ADD +
+    console.log("Add 1")
+
+    setlit(0);
+  }
+
   return <div>
 
     <div className='main'>
@@ -29,6 +35,8 @@ const Counter = () => {
       <div className='btn'>
         <button onClick={Add} className='add'>+</button>
         <button onClick={Sub} className='sub'>-</button>
+        <br />
+        <button onClick={Reset} className='reset'>Reset</button>
       </div>
       
     </div>

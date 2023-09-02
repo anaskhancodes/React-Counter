@@ -8,9 +8,9 @@ body {
 
 .main {
   border: 2px solid black;
-  margin-top: 30%;
+  margin-top: 20%;
   width: 350px;
-  height: 450px;
+  height: 507px;
   background-color: white;
   box-shadow: 1px 13px 20px 6px black;
 }
@@ -37,6 +37,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  margin-left: 40px;
 }
 
 .btn button {
@@ -60,6 +61,16 @@ body {
   color: white;
 }
 
+.btn .reset{
+  background-color: yellow;
+  margin-top: 145px;
+  margin-left: -36px;
+  width: 240px; 
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+}
+
 @media screen and (max-width: 370px) {
   .num{
     width: 255px;
@@ -69,6 +80,6 @@ body {
 
   .main{
     width: 290px;
-
+    height: 466px;
   }
 }
